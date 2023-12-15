@@ -1,35 +1,91 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Your introduction text goes here.</p>
-    </section>
-    <section id="portfolio">
-        <h2>My Portfolios</h2>
-        <div class="portfolio-item">
-            <img src="path-to-image.jpg" alt="Portfolio Item">
-            <p>Description of the portfolio item.</p>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Instagram: @yourinstagram</p>
-        <p>Email: your.email@example.com</p>
-        <p>WhatsApp: +1234567890</p>
-    </section>
-    <footer>
-        <p>© 2023 Your Name. All Rights Reserved.</p>
-    </footer>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+<!-- Start Navbar -->
+         <nav>
+            <ul>
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+         </nav>
+<!-- End Navbar -->
+<!-- Start Welcome Section -->
+         <section class="section welcome-section" id="welcome-section">
+            <img id="wallpaper" src="images/wallpaper3.jpg" alt="wallpaper">
+            <img id="sheni4" src="images/sheni4.jpeg" alt="sheni4">
+            <img id="sheni2" src="images/sheni2.jpeg" alt="sheni2">
+            <div id="bingkai-me">
+                <img id="me" src="images/i.jpeg" alt="me">
+            </div>
+            <div class="text-container">
+                <h1>Hey, I am Kahvi</h1>
+                <p>A software engineer (soon).</p>
+                <p>Below are my portfolios.</p>
+            </div>
+         </section>
+<!-- End Welcome Section -->
+<!-- Start Projects Section -->
+         <section class="section projects-section" id="projects">
+            <img src="images/wallpaper6.jpg" alt="wallpaper-projects">
+            <h2>~ 君の名は。~</h2>
+            <p>Here are some of my projects. All of these projects are from the freecodecamp.org curriculum, the responsive web design certification</p>
+            <div class="projects-grid grid-1">
+                <div class="square">
+                <div class="card-img">
+                    <div class="projects-img">
+                    <img src="images/project1.png" alt="project1">
+                    </div>
+                </div>
+                <div class="transparent-div"></div>
+                <div class="card card-1">
+                    <h3>Tribute Project</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris leo est, aliquam vitae viverra ut, egestas in elit. Nullam posuere dictum tellus, fermentum facilisis nunc interdum dignissim. Donec non tellus ipsum. Sed commodo, arcu vel sodales ultricies, quam odio tristique dolor, ac condimentum massa ligula eu nisl. Donec accumsan augue mollis tellus finibus lacinia. Cras pharetra finibus augue dignissim ornare. Curabitur sed mattis mauris. Morbi sollicitudin leo nec suscipit pharetra. Fusce ultrices ex lorem, dictum congue odio rutrum eget. Mauris lobortis orci sit amet arcu condimentum, facilisis commodo mi ultricies. Sed ullamcorper eu ipsum fringilla dictum. Sed nunc sapien, iaculis sed massa eu, semper vulputate felis.
+                    </p>
+                </div>
+                </div>
+            </div>
+         </section>
+<!-- End Projects Section -->
+<!-- Start Contacts Section -->
+         <section class="section contact-section" id="contacts">
+            <div class="contact-section-header">
+                <h2>Get in touch</h2>
+                <p>Feel free to contact me</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/" target="_blank" class="btn contact-details">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/" target="_blank" class="btn contact-details">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="btn contact-details">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+                <a href="mailto:kahvikhakam@gmail.com" target="_blank" class="btn contact-details">
+                    <i class="fas fa-envelope"></i>
+                    Gmail
+                </a>
+            </div>
+            </section>
+<!-- End Contacts Section -->
+<!-- Start Footer Section -->
+<footer class="section footer-section" id="footer">
+    <div class="footer-content">
+            <p>&copy; 2022 Personal Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+<!-- End Footer Section -->
 </body>
 </html>
